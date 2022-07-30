@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cost of Goods Manufactured Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="costofGoodsManufacturedRadio" name="variables" checked>
+  <label for="costofGoodsManufacturedRadio">Cost of Goods Manufactured</label>
+
+  <input type="radio" id="directMaterialsCostRadio" name="variables">
+  <label for="directMaterialsCostRadio">Direct Materials Cost</label>
+
+  <input type="radio" id="directLaborCostRadio" name="variables">
+  <label for="directLaborCostRadio">Direct Labor Cost</label>
+
+  <input type="radio" id="factoryOverheadCostRadio" name="variables">
+  <label for="factoryOverheadCostRadio">Factory Overhead Cost</label>
+
+  <input type="radio" id="openingWorkinProcessInventoryRadio" name="variables">
+  <label for="openingWorkinProcessInventoryRadio">Opening Work in Process Inventory</label>
+
+  <input type="radio" id="endingWorkinProcessInventoryRadio" name="variables">
+  <label for="endingWorkinProcessInventoryRadio">Ending Work in Process Inventory</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">Direct Materials Cost</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Direct Labor Cost</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">Factory Overhead Cost</label>
+  <input type="number" id="v3"><br><br>
+  
+  <label for="v4" id="variable4">Opening Work in Process Inventory</label>
+  <input type="number" id="v4"><br><br>
+  
+  <label for="v5" id="variable5">Ending Work in Process Inventory</label>
+  <input type="number" id="v5"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
